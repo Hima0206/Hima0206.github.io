@@ -1,68 +1,18 @@
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
-  background: linear-gradient(to bottom, #e8f0f9, #ffffff);
-  color: #333;
-}
+@import "./sass/vendors/bootstrap.scss";
 
-header {
-  background: #003f7f;
-  color: white;
-  padding: 2rem;
-  text-align: center;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
+@import "./sass/abstracts/mixins";
+@import "./sass/abstracts/variables";
+@import "./sass/abstracts/helpers";
 
-nav {
-  background: #002f5f;
-  text-align: center;
-  padding: 1rem;
-}
+@import "./sass/base/base";
+@import "./sass/base/typography";
 
-nav a {
-  color: white;
-  margin: 0 15px;
-  font-weight: bold;
-  text-decoration: none;
-}
+@import "./sass/components/buttons";
 
-nav a:hover {
-  text-decoration: underline;
-}
+@import "./sass/layout/footer";
+@import "./sass/layout/sections";
 
-section {
-  max-width: 1000px;
-  background: #fff;
-  margin: 2rem auto;
-  padding: 2rem;
-  border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
-}
-
-h2 {
-  color: #003f7f;
-  border-bottom: 2px solid #cce0f0;
-  padding-bottom: 0.5rem;
-  margin-bottom: 1rem;
-}
-
-.project h3 {
-  margin-top: 1rem;
-  color: #222;
-}
-
-.project a {
-  color: #003f7f;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.project a:hover {
-  text-decoration: underline;
-}
-
-footer {
-  background: #eee;
-  text-align: c
+@import "./sass/sections/about";
+@import "./sass/sections/contact";
+@import "./sass/sections/hero";
+@import "./sass/sections/projects";
